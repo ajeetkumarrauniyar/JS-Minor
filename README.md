@@ -1,20 +1,21 @@
-# Projects
-
 ## Events
 
-- 01 [Mouse Tracking](./MouseTracking/index.html) [Live Demo](https://ajeetkumarrauniyar.github.io/JS-Minor/MouseTracking/index.html)
+- 01 [Mouse Tracking](#mouse-tracking) [Source Code](./MouseTracking/index.html) [Live Demo](https://ajeetkumarrauniyar.github.io/JS-Minor/MouseTracking/index.html)
+- 02 [Form Validation](./FormValidation/index.html) [Source Code] (./FormValidation/index.html) [Live Demo](https://ajeetkumarrauniyar.github.io/JS-Minor/FormValidation/index.html)
 
-  - **Description**: Create a web page that tracks the mouse movement of the user. Displays the current position of the mouse (X, Y coordinates) on the page. Use mouse events such as mousemove to capture the movement and update the display dynamically.
-  - **Events covered**: `mousemove`
-  - **Use case**: Mouse tracking can be useful for analytics purposes or for creating interactive experiences on a website.
+### Mouse Tracking {#mouse-tracking}
 
-- 02 [Form Validation](./FormValidation/index.html)
+- **Description**: Create a web page that tracks the mouse movement of the user. Displays the current position of the mouse (X, Y coordinates) on the page. Use mouse events such as mousemove to capture the movement and update the display dynamically.
+- **Events covered**: `mousemove`
+- **Use case**: Mouse tracking can be useful for analytics purposes or for creating interactive experiences on a website.
 
-  - **Task Description**: Design a registration/login form inclusive of input fields for name, email, and password. Utilize client-side validation mechanisms such as input, change, blur, and submit events to provide real-time feedback on the validity of user inputs. Implement dynamic error message display to guide users as they interact with the form.
-  - **Events covered**: `keyup`, `blur`, `input`,`change`, `submit`, `focus`
-  - **Use case**: Form validation is crucial for ensuring data integrity and providing a user-friendly experience in web applications.
+- 02 [Form Validation]{#form-validation}
 
-- 03 [Event Delegation]()
+- **Task Description**: Design a registration/login form inclusive of input fields for name, email, and password. Utilize client-side validation mechanisms such as input, change, blur, and submit events to provide real-time feedback on the validity of user inputs. Implement dynamic error message display to guide users as they interact with the form.
+- **Events covered**: `keyup`, `blur`, `input`,`change`, `submit`, `focus`
+- **Use case**: Form validation is crucial for ensuring data integrity and providing a user-friendly experience in web applications.
+
+- 03 [Event Delegation]
 
   - **Description**: Design a dynamic list where users can add and remove items. Use event delegation to handle events efficiently, especially for dynamically added elements. Attach event listeners to a parent element and utilize event bubbling to handle events triggered by child elements. Implement functionality to add new items to the list and remove existing items by clicking on them.
   - **Events covered**: `click`
@@ -55,9 +56,3 @@
   - **Description**: Implement an infinite scroll feature on a website, where new content is loaded dynamically as the user scrolls down the page, utilizing the `scroll` event.
   - **Events covered**: `scroll`, `resize`
   - **Use case**: Infinite scroll is commonly used on social media feeds, news websites, and e-commerce platforms to enhance the user experience by loading content seamlessly without page refreshes.
-
-# Theory and Important topics
-
-## Basics of JS
-
-- 01 [Basics of JavaScript](01_basic.js)
