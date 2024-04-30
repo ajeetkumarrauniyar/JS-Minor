@@ -1,22 +1,20 @@
-## Events
+- 01 <span style="color:blue;">[Mouse Tracking](#mouse-tracking)</span> <span style="color:green;">[Source Code](./MouseTracking/index.html)</span> <span style="color:red;">[Live Demo](https://ajeetkumarrauniyar.github.io/JS-Minor/MouseTracking/index.html)</span>
 
-- 01 [Mouse Tracking](#mouse-tracking) [Source Code](./MouseTracking/index.html) [Live Demo](https://ajeetkumarrauniyar.github.io/JS-Minor/MouseTracking/index.html)
+- 02 <span style="color:blue;">[Form Validation](#form-validation)</span> <span style="color:green;">[Source Code](./FormValidation/index.html)</span> <span style="color:red;">[Live Demo](https://ajeetkumarrauniyar.github.io/JS-Minor/FormValidation/index.html)</span>
 
-- 02 [Form Validation](#form-validation) [Source Code](./FormValidation/index.html) [Live Demo](https://ajeetkumarrauniyar.github.io/JS-Minor/FormValidation/index.html)
+- 03 <span style="color:blue;">[Event Delegation](#event-delegation)</span> <span style="color:green;">[Source Code]()</span> <span style="color:red;">[Live Demo]()</span>
 
-- 03 [Event Delegation](#event-delegation) [Source Code]() [Live Demo]()
+- 04 <span style="color:blue;">[Interactive Image Gallery](#interactive-image-gallery)</span> <span style="color:green;">[Source Code]()</span> <span style="color:red;">[Live Demo]()</span>
 
-- 04 [Interactive Image Gallery](#interactive-image-gallery) [Source Code]() [Live Demo]()
+- 05 <span style="color:blue;">[Image Slider](#image-slider)</span> <span style="color:green;">[Source Code]()</span> <span style="color:red;">[Live Demo]()</span>
 
-- 05 [Image Slider](#image-slider) [Source Code]() [Live Demo]()
+- 06 <span style="color:blue;">[Custom Tooltips](#custom-tooltips)</span> <span style="color:green;">[Source Code]()</span> <span style="color:red;">[Live Demo]()</span>
 
-- 06 [Custom Tooltips](#custom-tooltips) [Source Code]() [Live Demo]()
+- 07 <span style="color:blue;">[Drag and Drop Game](#drag-and-drop-game)</span> <span style="color:green;">[Source Code]()</span> <span style="color:red;">[Live Demo]()</span>
 
-- 07 [Drag and Drop Game](#drag-and-drop-game) [Source Code]() [Live Demo]()
+- 08 <span style="color:blue;">[Drag and Drop Interface](#drag-and-drop-interface)</span> <span style="color:green;">[Source Code]()</span> <span style="color:red;">[Live Demo]()</span>
 
-- 08 [Drag and Drop Interface](#drag-and-drop-interface) [Source Code]() [Live Demo]()
-
-- 09 [Infinite Scroll](#infinite-scroll) [Source Code]() [Live Demo]()
+- 09 <span style="color:blue;">[Infinite Scroll](#infinite-scroll)</span> <span style="color:green;">[Source Code]()</span> <span style="color:red;">[Live Demo]()</span>
 
 ### Mouse Tracking
 
