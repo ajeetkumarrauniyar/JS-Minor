@@ -1,7 +1,7 @@
 ## Events
 
-- 01 [Mouse Tracking](#mouse-tracking) [Source Code](./MouseTracking/index.html) [Live Demo](https://ajeetkumarrauniyar.github.io/JS-Minor/MouseTracking/index.html)
-- 02 [Form Validation](./FormValidation/index.html) [Source Code] (./FormValidation/index.html) [Live Demo](https://ajeetkumarrauniyar.github.io/JS-Minor/FormValidation/index.html)
+- 01 [Mouse Tracking](#mouse-tracking)    [Source Code](./MouseTracking/index.html)   [Live Demo](https://ajeetkumarrauniyar.github.io/JS-Minor/MouseTracking/index.html)
+- 02 [Form Validation](#form-validation)    [Source Code] (./FormValidation/index.html)   [Live Demo](https://ajeetkumarrauniyar.github.io/JS-Minor/FormValidation/index.html)
 
 ### Mouse Tracking {#mouse-tracking}
 
