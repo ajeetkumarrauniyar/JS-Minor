@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mouse tracking</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        background-color: #fafafab8;
+        overflow: hidden;
+      }
+      .card {
+        min-height: 100vh;
+        min-width: 100vh;
+      }
+      .card p {
+        margin: 10px;
+        padding: 50px;
+        border: 2px solid black;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="card">
+      <p>X: <span id="position-x"></span></p>
+      <p>Y: <span id="position-y"></span></p>
+    </div>
+
+    <script>
+      const mouse = document.querySelector("body");
+      const position_x = document.getElementById("position-x");
+      const position_y = document.getElementById("position-y");
+      document.createElement("div");
+
+      mouse.addEventListener("mousemove", (e) => {
+        let x = e.x;
+        let y = e.y;
+
+        position_x.textContent = x;
+        position_y.textContent = y;
+      });
+    </script>
+  </body>
+</html>
