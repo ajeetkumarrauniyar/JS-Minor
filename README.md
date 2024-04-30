@@ -1,15 +1,15 @@
 ## Events
 
 - 01 [Mouse Tracking](#mouse-tracking)  [Source Code](./MouseTracking/index.html) [Live Demo](https://ajeetkumarrauniyar.github.io/JS-Minor/MouseTracking/index.html)
-- 02 [Form Validation](#form-validation)  [Source Code] (./FormValidation/index.html) [Live Demo](https://ajeetkumarrauniyar.github.io/JS-Minor/FormValidation/index.html)
+- 02 [Form Validation](#form-validation) [Live Demo](https://ajeetkumarrauniyar.github.io/JS-Minor/FormValidation/index.html)
 
-### Mouse Tracking {#mouse-tracking}
+### Mouse Tracking
 
 - **Description**: Create a web page that tracks the mouse movement of the user. Displays the current position of the mouse (X, Y coordinates) on the page. Use mouse events such as mousemove to capture the movement and update the display dynamically.
 - **Events covered**: `mousemove`
 - **Use case**: Mouse tracking can be useful for analytics purposes or for creating interactive experiences on a website.
 
-### Form Validation {#form-validation}
+### Form Validation 
 
 - **Task Description**: Design a registration/login form inclusive of input fields for name, email, and password. Utilize client-side validation mechanisms such as input, change, blur, and submit events to provide real-time feedback on the validity of user inputs. Implement dynamic error message display to guide users as they interact with the form.
 - **Events covered**: `keyup`, `blur`, `input`,`change`, `submit`, `focus`
