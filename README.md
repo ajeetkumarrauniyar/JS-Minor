@@ -2,7 +2,7 @@
 
 ## Events
 
-- 01 [Mouse Tracking](./project1/index.html) [Live Demo]()
+- 01 [Mouse Tracking](./MouseTracking/index.html) [Live Demo]()
 
   - **Description**: Create a web page that tracks the mouse movement of the user. Displays the current position of the mouse (X, Y coordinates) on the page. Use mouse events such as mousemove to capture the movement and update the display dynamically.
   - **Events covered**: `mousemove`
