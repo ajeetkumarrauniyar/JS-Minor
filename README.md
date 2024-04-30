@@ -9,7 +9,7 @@
 - **Events covered**: `mousemove`
 - **Use case**: Mouse tracking can be useful for analytics purposes or for creating interactive experiences on a website.
 
-- 02 [Form Validation]{#form-validation}
+### Form Validation {#form-validation}
 
 - **Task Description**: Design a registration/login form inclusive of input fields for name, email, and password. Utilize client-side validation mechanisms such as input, change, blur, and submit events to provide real-time feedback on the validity of user inputs. Implement dynamic error message display to guide users as they interact with the form.
 - **Events covered**: `keyup`, `blur`, `input`,`change`, `submit`, `focus`
