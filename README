@@ -1,24 +1,48 @@
 ## Events
 
-| Project Number | Project Title                                           | Source Code                                | Live Demo Link                                                                       |
-| -------------- | ------------------------------------------------------- | ------------------------------------------ | ------------------------------------------------------------------------------------ |
-| 01             | [Mouse Tracking](#mouse-tracking)                       | [Source Code](./MouseTracking/index.html)  | [Live Demo](https://ajeetkumarrauniyar.github.io/JS-Minor/MouseTracking/index.html)  |
-| 02             | [Form Validation](#form-validation)                     | [Source Code](./FormValidation/index.html) | [Live Demo](https://ajeetkumarrauniyar.github.io/JS-Minor/FormValidation/index.html) |
-| 03             | [Event Delegation](#event-delegation)                   | [Source Code]()                            | [Live Demo]()                                                                        |
-| 04             | [Interactive Image Gallery](#interactive-image-gallery) | [Source Code]()                            | [Live Demo]()                                                                        |
-| 05             | [Image Slider](#image-slider)                           | [Source Code]()                            | [Live Demo]()                                                                        |
-| 06             | [Custom Tooltips](#custom-tooltips)                     | [Source Code]()                            | [Live Demo]()                                                                        |
-| 07             | [Drag and Drop Game](#drag-and-drop-game)               | [Source Code]()                            | [Live Demo]()                                                                        |
-| 08             | [Drag and Drop Interface](#drag-and-drop-interface)     | [Source Code]()                            | [Live Demo]()                                                                        |
-| 09             | [Infinite Scroll](#infinite-scroll)                     | [Source Code]()                            | [Live Demo]()                                                                        |
+|Project Number | Project Title                   | Source Code                               | Live Demo Link                                               |
+|--------------|-------------------------------|--------------------------------------------|--------------------------------------------------------------|
+| 01           | Mouse Tracking                | [Source Code](./MouseTracking/index.html) | [Live Demo](https://ajeetkumarrauniyar.github.io/JS-Minor/MouseTracking/index.html) |
+| 02           | Form Validation               | [Source Code](./FormValidation/index.html) | [Live Demo](https://ajeetkumarrauniyar.github.io/JS-Minor/FormValidation/index.html) |
+| 03           | Event Delegation              | [Source Code]()                           | [Live Demo]()                                                |
+| 04           | Interactive Image Gallery     | [Source Code]()                           | [Live Demo]()                                                |
+| 05           | Image Slider                  | [Source Code]()                           | [Live Demo]()                                                |
+| 06           | Custom Tooltips               | [Source Code]()                           | [Live Demo]()                                                |
+| 07           | Drag and Drop Game            | [Source Code]()                           | [Live Demo]()                                                |
+| 08           | Drag and Drop Interface       | [Source Code]()                           | [Live Demo]()                                                |
+| 09           | Infinite Scroll               | [Source Code]()                           | [Live Demo]()                                                |
 
 ## Date & Time
 
-| ProjectNumber | Project Title           | Source Code     | Live Demo Link |
-| ------------- | ----------------------- | --------------- | -------------- |
-| 10            | [PixelTime](#pixeltime) | [Source Code]() | [Live Demo]()  |
+| ProjectNumber | Project Title | Source Code | Live Demo Link |
+|--------------------|-------------------|-------------|----------------|
+| 10                 | PixelTime         | [Source Code]() | [Live Demo]()  |
+
+
 
 ## Events
+
+- 01 [Mouse Tracking](#mouse-tracking) [Source Code](./MouseTracking/index.html) [Live Demo](https://ajeetkumarrauniyar.github.io/JS-Minor/MouseTracking/index.html)
+
+- 02 [Form Validation](#form-validation) [Source Code](./FormValidation/index.html) [Live Demo](https://ajeetkumarrauniyar.github.io/JS-Minor/FormValidation/index.html)
+
+- 03 [Event Delegation](#event-delegation) [Source Code]() [Live Demo]()
+
+- 04 [Interactive Image Gallery](#interactive-image-gallery) [Source Code]() [Live Demo]()
+
+- 05 [Image Slider](#image-slider) [Source Code]() [Live Demo]()
+
+- 06 [Custom Tooltips](#custom-tooltips) [Source Code]() [Live Demo]()
+
+- 07 [Drag and Drop Game](#drag-and-drop-game) [Source Code]() [Live Demo]()
+
+- 08 [Drag and Drop Interface](#drag-and-drop-interface) [Source Code]() [Live Demo]()
+
+- 09 [Infinite Scroll](#infinite-scroll) [Source Code]() [Live Demo]()
+
+## Date & Time
+
+- 10 [PixelTime](#pixel-time) [Source Code]() [Live Demo]()
 
 ### Mouse Tracking
 
@@ -75,6 +99,5 @@
 - **Use case**: Infinite scroll is commonly used on social media feeds, news websites, and e-commerce platforms to enhance the user experience by loading content seamlessly without page refreshes.
 
 ### PixelTime
-
-- **Description**: Digital clock
+- **Description**: Digital clock 
 - **Use case**:

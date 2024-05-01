@@ -89,21 +89,34 @@
       <input type="submit" value="Register" />
     </form>
 
-    <script> 
+    <script>
       const name = document.getElementById("name");
       const email = document.getElementById("email");
       const password = document.getElementById("password");
 
       const formElement = [name, email, password];
 
-// 1. 
+      // 1. Error Message
+      // 2. Validation
+      // 3. Password validation
+      // 4. keyup event
+      // 5. blur event
+      // 6. input event
+      // 7. submit event
+      // 8. change event
+      // 9. focus event
 
+      function displayErrorMessage(input, message) {
+        formElement.createElement("span").textContent =
+          "Please enter correct: " + message;
+          console.log(message);
+      }
       formElement.forEach((input) => {
         input.addEventListener("focus", (e) => {
-          e.target.style.borderColor = "green";
+          e.target.style.borderWidth = "4px";
         });
-        input.addEventListener("focus", (e) => {
-          e.target.style.borderColor = "green";
+        input.addEventListener("blur", (e) => {
+          // e.target.style.borderColor = "red";
         });
       });
     </script>
