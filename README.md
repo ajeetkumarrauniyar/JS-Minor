@@ -4,21 +4,25 @@
 | -------------- | ------------------------------------------------------- | ------------------------------------------ | ------------------------------------------------------------------------------------ |
 | 01             | [Mouse Tracking](#mouse-tracking)                       | [Source Code](./MouseTracking/index.html)  | [Live Demo](https://ajeetkumarrauniyar.github.io/JS-Minor/MouseTracking/index.html)  |
 | 02             | [Form Validation](#form-validation)                     | [Source Code](./FormValidation/index.html) | [Live Demo](https://ajeetkumarrauniyar.github.io/JS-Minor/FormValidation/index.html) |
-| 03             | [Event Delegation](#event-delegation)                   | [Source Code]                            | [Live Demo]                                                                        |
-| 04             | [Interactive Image Gallery](#interactive-image-gallery) | [Source Code]                            | [Live Demo]                                                                        |
-| 05             | [Image Slider](#image-slider)                           | [Source Code]                            | [Live Demo]                                                                        |
-| 06             | [Custom Tooltips](#custom-tooltips)                     | [Source Code]                            | [Live Demo]                                                                        |
-| 07             | [Drag and Drop Game](#drag-and-drop-game)               | [Source Code]                            | [Live Demo]                                                                        |
-| 08             | [Drag and Drop Interface](#drag-and-drop-interface)     | [Source Code]                            | [Live Demo]                                                                        |
-| 09             | [Infinite Scroll](#infinite-scroll)                     | [Source Code]                            | [Live Demo]                                                                        |
+| 03             | [Event Delegation](#event-delegation)                   | [Source Code]                              | [Live Demo]                                                                          |
+| 04             | [Interactive Image Gallery](#interactive-image-gallery) | [Source Code]                              | [Live Demo]                                                                          |
+| 05             | [Image Slider](#image-slider)                           | [Source Code]                              | [Live Demo]                                                                          |
+| 06             | [Custom Tooltips](#custom-tooltips)                     | [Source Code]                              | [Live Demo]                                                                          |
+| 07             | [Drag and Drop Game](#drag-and-drop-game)               | [Source Code]                              | [Live Demo]                                                                          |
+| 08             | [Drag and Drop Interface](#drag-and-drop-interface)     | [Source Code]                              | [Live Demo]                                                                          |
+| 09             | [Infinite Scroll](#infinite-scroll)                     | [Source Code]                              | [Live Demo]                                                                          |
 
 ## Date & Time
 
-| ProjectNumber | Project Title           | Source Code                              | Live Demo Link                                                                     |
-| ------------- | ----------------------- | ---------------------------------------- | ---------------------------------------------------------------------------------- |
-| 10            | [PixelTime](#pixeltime) | [Source Code](./DigitalClock/index.html) | [Live Demo](https://ajeetkumarrauniyar.github.io/JS-Minor/DigitalClock/index.html) |
+| Project Number | Project Title           | Source Code                              | Live Demo Link                                                                     |
+| -------------- | ----------------------- | ---------------------------------------- | ---------------------------------------------------------------------------------- |
+| 10             | [PixelTime](#pixeltime) | [Source Code](./DigitalClock/index.html) | [Live Demo](https://ajeetkumarrauniyar.github.io/JS-Minor/DigitalClock/index.html) |
 
-## Events
+##
+
+| Project Number | Project Title  | Source Code                               | Live Demo Link                                                                     |
+| -------------- | -------------- | ----------------------------------------- | ---------------------------------------------------------------------------------- |
+| 11             | [BMI Master](#bmimaster) | [Source Code](./BMICalculator/index.html) | [Live Demo](https://ajeetkumarrauniyar.github.io/JS-Minor/BMICalculator/index.html) |
 
 ### Mouse Tracking
 
@@ -77,4 +81,11 @@
 ### PixelTime
 
 - **Description**: PixelTime is a digital clock that displays the current time and date. It provides a simple yet effective way to keep track of time.
+- **Topics covered**: Date object, setInterval function, DOM manipulation
 - **Use case**: PixelTime can be used on websites or applications where displaying real-time information is necessary, such as dashboards, admin panels, or personal websites.
+
+### BMI Master
+
+- **Description**: BMI Master is a web application that calculates the Body Mass Index (BMI) based on the user's height and weight inputs. It provides real-time feedback on the BMI value and interpretation.
+- **Topics covered**:  Event handling, form submission, conditional statements, DOM manipulation
+- **Use case**: BMI Master can be used in healthcare websites, fitness applications, or personal wellness trackers to help users monitor their body composition and make informed decisions about their health.
