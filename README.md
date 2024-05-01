@@ -22,7 +22,7 @@
 
 | Project Number | Project Title  | Source Code                               | Live Demo Link                                                                     |
 | -------------- | -------------- | ----------------------------------------- | ---------------------------------------------------------------------------------- |
-| 11             | [BMI Master](#bmimaster) | [Source Code](./BMICalculator/index.html) | [Live Demo](https://ajeetkumarrauniyar.github.io/JS-Minor/BMICalculator/index.html) |
+| 11             | [BMI Master](#bmi-master) | [Source Code](./BMICalculator/index.html) | [Live Demo](https://ajeetkumarrauniyar.github.io/JS-Minor/BMICalculator/index.html) |
 
 ### Mouse Tracking
 
