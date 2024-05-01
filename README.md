@@ -14,9 +14,9 @@
 
 ## Date & Time
 
-| ProjectNumber | Project Title           | Source Code     | Live Demo Link |
-| ------------- | ----------------------- | --------------- | -------------- |
-| 10            | [PixelTime](#pixeltime) | [Source Code]() | [Live Demo]()  |
+| ProjectNumber | Project Title           | Source Code                              | Live Demo Link                                                                     |
+| ------------- | ----------------------- | ---------------------------------------- | ---------------------------------------------------------------------------------- |
+| 10            | [PixelTime](#pixeltime) | [Source Code](./DigitalClock/index.html) | [Live Demo](https://ajeetkumarrauniyar.github.io/JS-Minor/DigitalClock/index.html) |
 
 ## Events
 
