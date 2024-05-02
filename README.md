@@ -2,7 +2,7 @@
 
 | Project Number | Project Title                                           | Source Code                                | Live Demo Link                                                                       |
 | -------------- | ------------------------------------------------------- | ------------------------------------------ | ------------------------------------------------------------------------------------ |
-| 01             | [Mouse Tracking](#mouse-tracking)                       | [Source Code]([./MouseTracking/index.html](https://github.com/ajeetkumarrauniyar/JS-Minor/blob/main/BMICalculator/index.html))  | [Live Demo](https://ajeetkumarrauniyar.github.io/JS-Minor/MouseTracking/index.html)  |
+| 01             | [Mouse Tracking](#mouse-tracking)                       | [Source Code](./blob/main/BMICalculator/index.html)  | [Live Demo](https://ajeetkumarrauniyar.github.io/JS-Minor/MouseTracking/index.html)  |
 | 02             | [Form Validation](#form-validation)                     | [Source Code](./FormValidation/index.html) | [Live Demo](https://ajeetkumarrauniyar.github.io/JS-Minor/FormValidation/index.html) |
 | 03             | [Event Delegation](#event-delegation)                   | [Source Code]                              | [Live Demo]                                                                          |
 | 04             | [Interactive Image Gallery](#interactive-image-gallery) | [Source Code]                              | [Live Demo]                                                                          |
