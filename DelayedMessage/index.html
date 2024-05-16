@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simple Delayed Message</title>
+  </head>
+  <body>
+    <h1>Simple Delayed Message</h1>
+    <button id="showMessage">Show Message</button>
+    <div id="message"></div>
+
+    <script>
+      const showMessage = document.getElementById("showMessage");
+      const message = document.getElementById("message");
+
+      const displayMessage = () => {
+        setTimeout(function () {
+          message.innerHTML = "Hello World!!";
+        }, 3000);
+        console.log("Display Message Called");
+      };
+
+      showMessage.addEventListener("click", displayMessage);
+    </script>
+  </body>
+</html>
+<!-- Extension:  Add an input field to let the user specify the delay in seconds. -->
