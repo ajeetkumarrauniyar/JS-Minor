@@ -4,6 +4,28 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Unlimited Color Changer</title>
+    <style>
+      /* Add your CSS styles here */
+      body {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+        font-family: Arial, sans-serif;
+      }
+
+      h2 {
+        margin-bottom: 20px;
+      }
+
+      button {
+        padding: 10px 20px;
+        font-size: 16px;
+        margin: 10px;
+      }
+    </style>
   </head>
   <body>
     <h2>Change the color continuously after every second on button click</h2>
@@ -29,11 +51,13 @@
 
       // Start the color change
       const startColorChange = () => {
-        intervalId = setInterval(() => {
-          document.body.style.backgroundColor = randomColor();
-          console.log("Color changed");
-        }, 1000);
-        console.log("Started color change");
+        if (!intervalId) {
+          intervalId = setInterval(() => {
+            document.body.style.backgroundColor = randomColor();
+            console.log("Color changed");
+          }, 1000);
+          console.log("Started color change");
+        }
       };
 
       // Stop the color change
