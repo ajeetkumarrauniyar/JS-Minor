@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Keyboard Check</title>
+    <style>
+      body {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+        font-family: Arial, sans-serif;
+      }
+      table, 
+      th,
+      td {
+        border: 1px solid #000000;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>Press any key and See the Magic!</h2>
+    <div id="insert"></div>
+    <script>
+      const insert = document.getElementById("insert");
+
+      window.addEventListener("keydown", (e) => {
+        console.log(e);
+        insert.innerHTML = `
+         <table>
+            <thead>
+            <tr>
+                <td>Key</td>
+                <td>KeyCode</td>
+                <td>Code</td>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>${e.key === " " ? "space" : e.key}</td>
+                <td>${e.keyCode}</td>
+                <td>${e.code}</td>
+            </tr>
+            </tbody>
+         </table>
+         `;
+      });
+    </script>
+  </body>
+</html>
