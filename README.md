@@ -2,7 +2,7 @@
 
 | Project Number | Project Title                                           | Source Code                                | Live Demo Link                                                                       |
 | -------------- | ------------------------------------------------------- | ------------------------------------------ | ------------------------------------------------------------------------------------ |
-| 01             | [Mouse Tracking](#mouse-tracking)                       | [Source Code](./blob/main/BMICalculator/index.html)  | [Live Demo](https://ajeetkumarrauniyar.github.io/JS-Minor/MouseTracking/index.html)  |
+| 01             | [Mouse Tracking](#mouse-tracking)                       | [Source Code](./BMICalculator/index.html)  | [Live Demo](https://ajeetkumarrauniyar.github.io/JS-Minor/MouseTracking/index.html)  |
 | 02             | [Form Validation](#form-validation)                     | [Source Code](./FormValidation/index.html) | [Live Demo](https://ajeetkumarrauniyar.github.io/JS-Minor/FormValidation/index.html) |
 | 03             | [Event Delegation](#event-delegation)                   | [Source Code]                              | [Live Demo]                                                                          |
 | 04             | [Interactive Image Gallery](#interactive-image-gallery) | [Source Code]                              | [Live Demo]                                                                          |
@@ -20,9 +20,23 @@
 
 ##
 
-| Project Number | Project Title  | Source Code                               | Live Demo Link                                                                     |
-| -------------- | -------------- | ----------------------------------------- | ---------------------------------------------------------------------------------- |
+| Project Number | Project Title             | Source Code                               | Live Demo Link                                                                      |
+| -------------- | ------------------------- | ----------------------------------------- | ----------------------------------------------------------------------------------- |
 | 11             | [BMI Master](#bmi-master) | [Source Code](./BMICalculator/index.html) | [Live Demo](https://ajeetkumarrauniyar.github.io/JS-Minor/BMICalculator/index.html) |
+
+## setTimeout & clearTimeout
+
+| Project Number | Project Title                                                         | Source Code                                                | Live Demo Link                                                                       |
+| -------------- | --------------------------------------------------------------------- | ---------------------------------------------------------- | ------------------------------------------------------------------------------------ |
+| 12             | [Simple Delayed Message](#simple-delayed-message)                     | [Source Code](./DelayedMessage/index.html)                 | [Live Demo](https://ajeetkumarrauniyar.github.io/JS-Minor/DelayedMessage/index.html) |
+| 13             | [CountdownTimerWithCancelOption](#countdown-timer-with-cancel-option) | [Source Code](./CountdownTimerWithCancelOption/index.html) |                                                                                      |
+| 14             | [Popup Reminder]                                                      |                                                            |                                                                                      |
+
+## XMLHttpRequest (xhr)
+
+| Project Number | Project Title                 | Source Code                             | Live Demo Link                                                                    |
+| -------------- | ----------------------------- | --------------------------------------- | --------------------------------------------------------------------------------- |
+| 17             | [Profile Card](#profile-card) | [Source Code](./ProfileCard/index.html) | [Live Demo](https://ajeetkumarrauniyar.github.io/JS-Minor/ProfileCard/index.html) |
 
 ### Mouse Tracking
 
@@ -87,5 +101,41 @@
 ### BMI Master
 
 - **Description**: BMI Master is a web application that calculates the Body Mass Index (BMI) based on the user's height and weight inputs. It provides real-time feedback on the BMI value and interpretation.
-- **Topics covered**:  Event handling, form submission, conditional statements, DOM manipulation
+- **Topics covered**: Event handling, form submission, conditional statements, DOM manipulation
 - **Use case**: BMI Master can be used in healthcare websites, fitness applications, or personal wellness trackers to help users monitor their body composition and make informed decisions about their health.
+
+### Simple Delayed Message
+
+- **Description**: Displays a message after a delay.
+- **Topics covered**: setTimeout, clearTimeout, scopes
+- **Use case**:
+
+### Countdown Timer With Cancel Option
+
+- **Description**: Created a countdown timer that can be canceled before it completes.
+- **Topics covered**:
+- **Use case**:
+
+### Popup Reminder
+
+- **Description**: Displays a reminder popup at regular interval.
+- **Topics covered**:
+- **Use case**:
+
+### Form Auto-save Feature
+
+- **Description**: Implemented an auto-save feature for a form.
+- **Topics covered**:
+- **Use case**:
+
+### Image Slideshow
+
+- **Description**:
+- **Topics covered**:
+- **Use case**:
+
+### Profile Card
+
+- **Description**: Dynamically fetches and displays user information from the GitHub API. It includes elements for the user's avatar, name, bio, and follower count, which are populated by making an AJAX request.
+- **Topics covered**: `XMLHttpRequest`, `open`, `send`, `onreadystatechange`,`innerHTML`, `JSON.parse`
+- **Use case**: Useful for creating a simple, visually appealing profile card that pulls live data from an API. It can be used in web applications that require user profile displays, such as social media platforms, personal blogs, or portfolio websites.
