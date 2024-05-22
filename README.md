@@ -1,49 +1,49 @@
 ## Events
 
-| Project Number | Project Title                                           | Source Code                                | Live Demo Link                                                                       |
-| -------------- | ------------------------------------------------------- | ------------------------------------------ | ------------------------------------------------------------------------------------ |
-| 01             | [Mouse Tracking](#mouse-tracking)                       | [Source Code](./BMICalculator/index.html)  | [Live Demo](https://ajeetkumarrauniyar.github.io/JS-Minor/MouseTracking/index.html)  |
-| 02             | [Form Validation](#form-validation)                     | [Source Code](./FormValidation/index.html) | [Live Demo](https://ajeetkumarrauniyar.github.io/JS-Minor/FormValidation/index.html) |
-| 03             | [Event Delegation](#event-delegation)                   | [Source Code]                              | [Live Demo]                                                                          |
-| 04             | [Interactive Image Gallery](#interactive-image-gallery) | [Source Code]                              | [Live Demo]                                                                          |
-| 05             | [Image Slider](#image-slider)                           | [Source Code]                              | [Live Demo]                                                                          |
-| 06             | [Custom Tooltips](#custom-tooltips)                     | [Source Code]                              | [Live Demo]                                                                          |
-| 07             | [Drag and Drop Game](#drag-and-drop-game)               | [Source Code]                              | [Live Demo]                                                                          |
-| 08             | [Drag and Drop Interface](#drag-and-drop-interface)     | [Source Code]                              | [Live Demo]                                                                          |
-| 09             | [Infinite Scroll](#infinite-scroll)                     | [Source Code]                              | [Live Demo]                                                                          |
+| Project Number | Project Title                                           | Source Code                                                                                                | Live Demo Link                                                                       |
+| -------------- | ------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------ |
+| 01             | [Mouse Tracking](#mouse-tracking)                       | [Source Code](https://github.com/ajeetkumarrauniyar/JS-Minor/blob/main/MouseTracking/index.html)           | [Live Demo](https://ajeetkumarrauniyar.github.io/JS-Minor/MouseTracking/index.html)  |
+| 02             | [Form Validation](#form-validation)                     | [Source Code](https://github.com/ajeetkumarrauniyar/JS-Minor/blob/main/FormValidation/index.html)          | [Live Demo](https://ajeetkumarrauniyar.github.io/JS-Minor/FormValidation/index.html) |
+| 03             | [Event Delegation](#event-delegation)                   | [Source Code](https://github.com/ajeetkumarrauniyar/JS-Minor/blob/main/EventDelegation/index.html)         | [Live Demo](#)                                                                       |
+| 04             | [Interactive Image Gallery](#interactive-image-gallery) | [Source Code](https://github.com/ajeetkumarrauniyar/JS-Minor/blob/main/InteractiveImageGallery/index.html) | [Live Demo](#)                                                                       |
+| 05             | [Image Slider](#image-slider)                           | [Source Code](https://github.com/ajeetkumarrauniyar/JS-Minor/blob/main/ImageSlider/index.html)             | [Live Demo](#)                                                                       |
+| 06             | [Custom Tooltips](#custom-tooltips)                     | [Source Code](https://github.com/ajeetkumarrauniyar/JS-Minor/blob/main/CustomTooltips/index.html)          | [Live Demo](#)                                                                       |
+| 07             | [Drag and Drop Game](#drag-and-drop-game)               | [Source Code](https://github.com/ajeetkumarrauniyar/JS-Minor/blob/main/DragAndDropGame/index.html)         | [Live Demo](#)                                                                       |
+| 08             | [Drag and Drop Interface](#drag-and-drop-interface)     | [Source Code](https://github.com/ajeetkumarrauniyar/JS-Minor/blob/main/DragAndDropInterface/index.html)    | [Live Demo](#)                                                                       |
+| 09             | [Infinite Scroll](#infinite-scroll)                     | [Source Code](https://github.com/ajeetkumarrauniyar/JS-Minor/blob/main/InfiniteScroll/index.html)          | [Live Demo](#)                                                                       |
 
 ## Date & Time
 
-| Project Number | Project Title           | Source Code                              | Live Demo Link                                                                     |
-| -------------- | ----------------------- | ---------------------------------------- | ---------------------------------------------------------------------------------- |
-| 10             | [PixelTime](#pixeltime) | [Source Code](./DigitalClock/index.html) | [Live Demo](https://ajeetkumarrauniyar.github.io/JS-Minor/DigitalClock/index.html) |
+| Project Number | Project Title           | Source Code                                                                                     | Live Demo Link                                                                     |
+| -------------- | ----------------------- | ----------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------- |
+| 10             | [PixelTime](#pixeltime) | [Source Code](https://github.com/ajeetkumarrauniyar/JS-Minor/blob/main/DigitalClock/index.html) | [Live Demo](https://ajeetkumarrauniyar.github.io/JS-Minor/DigitalClock/index.html) |
 
-##
+## BMI Master
 
-| Project Number | Project Title             | Source Code                               | Live Demo Link                                                                      |
-| -------------- | ------------------------- | ----------------------------------------- | ----------------------------------------------------------------------------------- |
-| 11             | [BMI Master](#bmi-master) | [Source Code](./BMICalculator/index.html) | [Live Demo](https://ajeetkumarrauniyar.github.io/JS-Minor/BMICalculator/index.html) |
+| Project Number | Project Title             | Source Code                                                                                      | Live Demo Link                                                                      |
+| -------------- | ------------------------- | ------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------- |
+| 11             | [BMI Master](#bmi-master) | [Source Code](https://github.com/ajeetkumarrauniyar/JS-Minor/blob/main/BMICalculator/index.html) | [Live Demo](https://ajeetkumarrauniyar.github.io/JS-Minor/BMICalculator/index.html) |
 
 ## setTimeout & clearTimeout
 
-| Project Number | Project Title                                                         | Source Code                                                | Live Demo Link                                                                       |
-| -------------- | --------------------------------------------------------------------- | ---------------------------------------------------------- | ------------------------------------------------------------------------------------ |
-| 12             | [Simple Delayed Message](#simple-delayed-message)                     | [Source Code](./DelayedMessage/index.html)                 | [Live Demo](https://ajeetkumarrauniyar.github.io/JS-Minor/DelayedMessage/index.html) |
-| 13             | [CountdownTimerWithCancelOption](#countdown-timer-with-cancel-option) | [Source Code](./CountdownTimerWithCancelOption/index.html) |                                                                                      |
-| 14             | [Popup Reminder]                                                      |                                                            |                                                                                      |
+| Project Number | Project Title                                                         | Source Code                                                                                                       | Live Demo Link                                                                       |
+| -------------- | --------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------ |
+| 12             | [Simple Delayed Message](#simple-delayed-message)                     | [Source Code](https://github.com/ajeetkumarrauniyar/JS-Minor/blob/main/DelayedMessage/index.html)                 | [Live Demo](https://ajeetkumarrauniyar.github.io/JS-Minor/DelayedMessage/index.html) |
+| 13             | [CountdownTimerWithCancelOption](#countdown-timer-with-cancel-option) | [Source Code](https://github.com/ajeetkumarrauniyar/JS-Minor/blob/main/CountdownTimerWithCancelOption/index.html) | [Live Demo](#)                                                                       |
+| 14             | [Popup Reminder](#popup-reminder)                                     | [Source Code](#)                                                                                                  | [Live Demo](#)                                                                       |
 
 ## XMLHttpRequest (xhr)
 
-| Project Number | Project Title                 | Source Code                             | Live Demo Link                                                                    |
-| -------------- | ----------------------------- | --------------------------------------- | --------------------------------------------------------------------------------- |
-| 17             | [Profile Card](#profile-card) | [Source Code](./ProfileCard/index.html) | [Live Demo](https://ajeetkumarrauniyar.github.io/JS-Minor/ProfileCard/index.html) |
+| Project Number | Project Title                 | Source Code                                                                                    | Live Demo Link                                                                    |
+| -------------- | ----------------------------- | ---------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------- |
+| 17             | [Profile Card](#profile-card) | [Source Code](https://github.com/ajeetkumarrauniyar/JS-Minor/blob/main/ProfileCard/index.html) | [Live Demo](https://ajeetkumarrauniyar.github.io/JS-Minor/ProfileCard/index.html) |
 
 ## Fetch API
 
-| Project Number | Project Title                                                   | Source Code                                | Live Demo Link                                                                       |
-| -------------- | --------------------------------------------------------------- | ------------------------------------------ | ------------------------------------------------------------------------------------ |
-| 19             | [Random Cat Facts](#random-cat-facts)                           | [Source Code](./RandomCatFacts/index.html) | [Live Demo](https://ajeetkumarrauniyar.github.io/JS-Minor/RandomCatFacts/index.html) |
-| 20             | [Rate mate : Currency Converter](#rate-mate-currency-converter) | [Source Code](./RateMate/index.html)       | [Live Demo](https://ajeetkumarrauniyar.github.io/JS-Minor/RateMate/index.html)       |
+| Project Number | Project Title                                                   | Source Code                                                                                       | Live Demo Link                                                                       |
+| -------------- | --------------------------------------------------------------- | ------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------ |
+| 19             | [Random Cat Facts](#random-cat-facts)                           | [Source Code](https://github.com/ajeetkumarrauniyar/JS-Minor/blob/main/RandomCatFacts/index.html) | [Live Demo](https://ajeetkumarrauniyar.github.io/JS-Minor/RandomCatFacts/index.html) |
+| 20             | [Rate mate : Currency Converter](#rate-mate-currency-converter) | [Source Code](https://github.com/ajeetkumarrauniyar/JS-Minor/blob/main/RateMate/index.html)       | [Live Demo](https://ajeetkumarrauniyar.github.io/JS-Minor/RateMate/index.html)       |
 
 ### Mouse Tracking
 
@@ -114,8 +114,8 @@
 ### Simple Delayed Message
 
 - **Description**: Displays a message after a specified delay. The user clicks a "Show Message" button, which triggers a function that sets a timeout to update a message div with "Hello World!!" after a delay of 3 seconds.
-- **Topics covered**: `setTimeout`, `clearTimeout`, `scopes`,  DOM manipulation, event listeners.
-- **Use case**: Demonstrating basic JavaScript concepts like DOM manipulation, event handling, and timers. 
+- **Topics covered**: `setTimeout`, `clearTimeout`, `scopes`, DOM manipulation, event listeners.
+- **Use case**: Demonstrating basic JavaScript concepts like DOM manipulation, event handling, and timers.
 - **Extension**: Can be extended by adding an input field to allow the user to specify the delay in seconds, covering additional topics like `user input handling` and `type conversion`.
 
 ### Countdown Timer With Cancel Option
