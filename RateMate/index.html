@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RateMate - Currency Converter</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <form action="">
+        <h1>Rate Mate</h1>
+        <div class="amount">
+          <label for="inputAmt">Enter Amount</label>
+          <input
+            type="number"
+            name="inputAmt"
+            id="inputAmt"
+            value="1"
+            aria-label="Enter amount to convert"
+          />
+        </div>
+        <div class="dropdown">
+          <div class="from">
+            <p>From:</p>
+            <div class="select-container">
+              <img src="https://flagsapi.com/US/flat/64.png" />
+              <select
+                name="from-currency"
+                id="from-currency"
+                aria-label="Select currency to convert from"
+              ></select>
+            </div>
+          </div>
+          <img src="./exchange-svgrepo-com.svg" alt="exchange" />
+          <div class="to">
+            <p>To:</p>
+            <div class="select-container">
+              <img src="https://flagsapi.com/IN/flat/64.png" />
+              <select
+                name="to-currency"
+                id="to-currency"
+                aria-label="Select currency to convert to"
+              ></select>
+            </div>
+          </div>
+        </div>
+        <div class="currency-exchange-rate">1 USD = 80 INR</div>
+        <button type="submit">Get Exchange Rate</button>
+      </form>
+    </div>
+    <script src="countryCurrenciesList.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

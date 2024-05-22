@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+/* General Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: #f0f0f0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  max-width: 500px;
+  width: 100%;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #333;
+}
+
+/* Form Styles */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.amount {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.amount label {
+  font-weight: 600;
+  color: #555;
+}
+
+.amount input {
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 0.5rem;
+  font-size: 1rem;  
+}
+
+.dropdown {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
+
+.dropdown img {
+  margin-top: 1rem;
+  max-width: 2rem;
+}
+
+.from,
+.to {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.from p,
+.to p {
+  font-weight: 600;
+  color: #555;
+}
+
+.select-container {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  background-color: #f5f5f5;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+}
+
+.select-container img {
+  width: 24px;
+  height: 24px;
+  margin: auto;
+}
+
+.select-container select {
+  border: none;
+  background-color: transparent;
+  font-size: 1rem;
+  padding: 0.25rem;
+}
+
+.currency-exchange-rate {
+  text-align: center;
+  font-weight: 600;
+  color: #555;
+  margin-top: 1rem;
+}
+
+button {
+  padding: 0.75rem 1.5rem;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Responsive Styles */
+@media (max-width: 480px) {
+  .container {
+    padding: 1rem;
+  }
+
+  .dropdown {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
