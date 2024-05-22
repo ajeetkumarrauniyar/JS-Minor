@@ -38,6 +38,13 @@
 | -------------- | ----------------------------- | --------------------------------------- | --------------------------------------------------------------------------------- |
 | 17             | [Profile Card](#profile-card) | [Source Code](./ProfileCard/index.html) | [Live Demo](https://ajeetkumarrauniyar.github.io/JS-Minor/ProfileCard/index.html) |
 
+## Fetch API
+
+| Project Number | Project Title                                                   | Source Code                                | Live Demo Link                                                                       |
+| -------------- | --------------------------------------------------------------- | ------------------------------------------ | ------------------------------------------------------------------------------------ |
+| 19             | [Random Cat Facts](#random-cat-facts)                           | [Source Code](./RandomCatFacts/index.html) | [Live Demo](https://ajeetkumarrauniyar.github.io/JS-Minor/RandomCatFacts/index.html) |
+| 20             | [Rate mate : Currency Converter](#rate-mate-currency-converter) | [Source Code](./RateMate/index.html)       | [Live Demo](https://ajeetkumarrauniyar.github.io/JS-Minor/RateMate/index.html)       |
+
 ### Mouse Tracking
 
 - **Description**: Create a web page that tracks the mouse movement of the user. Displays the current position of the mouse (X, Y coordinates) on the page. Use mouse events such as mousemove to capture the movement and update the display dynamically.
@@ -106,9 +113,10 @@
 
 ### Simple Delayed Message
 
-- **Description**: Displays a message after a delay.
-- **Topics covered**: setTimeout, clearTimeout, scopes
-- **Use case**:
+- **Description**: Displays a message after a specified delay. The user clicks a "Show Message" button, which triggers a function that sets a timeout to update a message div with "Hello World!!" after a delay of 3 seconds.
+- **Topics covered**: `setTimeout`, `clearTimeout`, `scopes`,  DOM manipulation, event listeners.
+- **Use case**: Demonstrating basic JavaScript concepts like DOM manipulation, event handling, and timers. 
+- **Extension**: Can be extended by adding an input field to allow the user to specify the delay in seconds, covering additional topics like `user input handling` and `type conversion`.
 
 ### Countdown Timer With Cancel Option
 
@@ -139,3 +147,15 @@
 - **Description**: Dynamically fetches and displays user information from the GitHub API. It includes elements for the user's avatar, name, bio, and follower count, which are populated by making an AJAX request.
 - **Topics covered**: `XMLHttpRequest`, `open`, `send`, `onreadystatechange`,`innerHTML`, `JSON.parse`
 - **Use case**: Useful for creating a simple, visually appealing profile card that pulls live data from an API. It can be used in web applications that require user profile displays, such as social media platforms, personal blogs, or portfolio websites.
+
+### Random Cat Facts
+
+- **Description**: Dynamically fetches and displays user information from the third-party API. It includes elements for displaying the fact text and a button to trigger fetching a new fact, utilizing modern JavaScript features like the Fetch API and async/await.
+- **Topics covered**: `fetch`, `async/await`, `DOM manipulation`, `innerText`, `addEventListener`.
+- **Use case**: Useful for creating an interactive, visually appealing card that pulls live data from an API. It can be used in web applications that aim to provide fun or educational content, such as trivia games, pet websites, or blogs.
+
+### Rate Mate : Currency Converter
+
+- **Description**: This is a web application that allows users to convert currency values between different countries. It provides a user interface with dropdown menus to select the source and target currencies, and an input field to enter the amount to be converted. The conversion rate is dynamically fetched from an external API and displayed on the page. When the user clicks the "Get Exchange Rate" button, the application calculates the converted amount based on the selected currencies and the current exchange rate.
+- **Topics covered**: `fetch` `async/await`,`DOM manipulation`, `form elements`, `events`, third-party API integration, dynamic UI rendering.
+- **Use case**: E-commerce websites, travel booking platforms, financial applications, personal finance management tools requiring currency conversion.
