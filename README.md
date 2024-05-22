@@ -16,7 +16,6 @@
 | 08             | [Drag and Drop Interface](#drag-and-drop-interface)     | [Source Code](https://github.com/ajeetkumarrauniyar/JS-Minor/blob/main/DragAndDropInterface/index.html)    | [Live Demo](#)                                                                       |
 | 09             | [Infinite Scroll](#infinite-scroll)                     | [Source Code](https://github.com/ajeetkumarrauniyar/JS-Minor/blob/main/InfiniteScroll/index.html)          | [Live Demo](#)                                                                       |
 
-[Jump to Top](#top)
 
 ## Date & Time
 
@@ -64,6 +63,8 @@
 - **Description**: Create a web page that tracks the mouse movement of the user. Displays the current position of the mouse (X, Y coordinates) on the page. Use mouse events such as mousemove to capture the movement and update the display dynamically.
 - **Events covered**: `mousemove`
 - **Use case**: Mouse tracking can be useful for analytics purposes or for creating interactive experiences on a website.
+
+
 [Jump to Top](#top)
 
 ### Form Validation
