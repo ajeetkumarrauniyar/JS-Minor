@@ -103,7 +103,6 @@
 [Jump to Top](#top)
 
 ### Drag and Drop Game
-[Jump to Top](#top)
 
 - **Description**: Create a simple drag-and-drop game where users can drag objects and drop them into specified targets. Use drag-and-drop events (dragstart, dragenter, dragover, dragleave, drop, dragend) to detect drag actions and update the UI accordingly. Implement event handlers to track the state of draggable objects and their positions relative to drop targets.
 - **Events covered**: `dragstart`, `dragenter`, `dragover`, `dragleave`, `drop`, `dragend`

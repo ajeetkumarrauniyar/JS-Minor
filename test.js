@@ -1,4 +1,6 @@
-// Multiple of any number
+//================================================================
+// Checking if a number is a multiple of 5
+
 // const userInput = prompt("Enter a number:");
 
 // if (userInput % 5 === 0) {
@@ -8,6 +10,7 @@
 // }
 
 //================================================================
+// Grading system based on score
 
 // let score = prompt("Enter your score");
 
@@ -35,11 +38,15 @@
 // }
 
 //================================================================
+// / Print "Hello Ajeet" 10000 times
 
 // for (let i = 1; i <= 10000; i++) {
 //   console.log("Hello Ajeet");
 // }
 // console.log("Good work done!");
+
+//================================================================
+// Calculate sum from 1 to 10
 
 // let sum = 0;
 // for (let i = 1; i <= 10; i++) {
@@ -47,14 +54,18 @@
 // }
 // console.log("Sum: " + sum);
 
+//================================================================
 // Print all even numbers fro 1 to 100
+
 // for (let i = 1; i <= 100; i++) {
 //   if (i % 2 === 0) {
 //     console.log("i", i);
 //   }
 // }
 
+//================================================================
 // Guess the number game
+
 // let num = 56;
 
 // let userInput = prompt("Guess the number: ");
@@ -65,7 +76,9 @@
 
 // alert("Wahoo! You have successfully guessed the number", num);
 
+//================================================================
 // Generating the username based on the user input
+
 // let userInput = prompt("Please enter your full name").toLowerCase();
 
 // let username = userInput.replace(/\s+/g, "");
@@ -73,22 +86,21 @@
 // alert(`@${username}${username.length}`);
 
 /*================================================================
-ARRAYS
+Arrays and their operations
 ================================================================*/
-
-// Find average of the given array (here, avg. marks of the class)
+// Find average of the given array
 
 // const marks = [85, 97, 44, 37, 76, 60];
 
 // let sum = 0;
-
 // for (let mark of marks) {
 //   sum = sum + mark;
 // }
-
 // let average = sum / marks.length;
-
 // console.log("Average", average);
+
+//================================================================
+// Apply discount to prices array
 
 // const prices = [250, 645, 300, 900, 50];
 
@@ -122,18 +134,26 @@ ARRAYS
 
 // console.log(prices);
 
+// 3rd method:
+// for (let i = 0; i < prices.length; i++) {
+//   prices[i] -= prices[i] / 10;
+// }
+// console.log(prices);
+
+//================================================================
+// Array manipulation
+
 // let companies = ["Bloomberg", "Microsoft", "Uber", "Google", "IBM", "Netflix"];
 
 // companies.shift();
-
 // companies.splice(2, 1, "Ola");
-
 // companies.push("Amazon");
 // console.log(companies);
 
 /*================================================================
 Functions & Methods
 ================================================================*/
+// Count vowels in a string
 
 // 1. String
 // 2. Break down in letters;
@@ -178,17 +198,18 @@ Functions & Methods
 
 // countVowels("Hitesh Chaudhary");
 
+//================================================================
+// Working with arrays and higher-order functions
+
 // let arr = [1, 2, 3, 4, 5];
 
 // let calcSquare = (val) => {
 //   console.log(val * val);
 // };
-
-// arr.forEach(calcSquare);
+// arr.forEach(calcSquare); 
 
 // let evenArray = arr.filter((val) => {
 //   return val % 2 === 0;
-
 // });
 
 // console.log(evenArray);
@@ -214,6 +235,9 @@ Functions & Methods
 
 // console.log(highestMarks);
 
+//================================================================
+// Generate an array and calculate sum and factorial
+
 // let userInput = prompt("Enter the number");
 
 // let newArray = [];
@@ -233,8 +257,9 @@ Functions & Methods
 // });
 
 // console.log(factorials);
+
 /*================================================================
-DOM 
+// DOM manipulation: create a button dynamically
 ================================================================*/
 // let body = document.querySelector("body");
 // let button = document.createElement("button");
@@ -252,5 +277,9 @@ DOM
 // dynamicBtn();
 
 /*================================================================
-Events 
+Events
+================================================================*/
+
+/*================================================================
+OOPs
 ================================================================*/
