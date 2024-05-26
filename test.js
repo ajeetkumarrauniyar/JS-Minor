@@ -417,4 +417,132 @@ Promises
 
 /*================================================================
 OOPs
+The 4 Pillars of Object Oriented Programming
+1. Abstraction
+2. Encapsulation
+3. Inheritance
+4. Polymorphism
 ================================================================*/
+// Abstraction : Abstraction ka matlab hota hai ki hum sirf important details ko highlight karte hain aur baaki ki unnecessary details ko hide kar dete hain. This helps in reducing complexity.
+
+// class Car {
+//   constructor(brand, model) {
+//     this.brand = brand;
+//     this.model = model;
+//   }
+
+//   start() {
+//     console.log(`${this.brand} ${this.model} is starting.`);
+//   }
+
+//   drive() {
+//     console.log(`${this.brand} ${this.model} is driving.`);
+//   }
+// }
+
+// const myCar = new Car("Toyota", "Corolla");
+// myCar.start();
+// myCar.drive();
+
+// Note: Yahaan pe, humne Car class banaya jo ki car ki important properties aur methods ko represent karta hai. Internal working jaise engine kaise start hota hai, yeh sab hidden hai.
+
+//================================================================
+// Encapsulation: Encapsulation ka matlab hota hai data ko wrap karna aur usko directly access karne se bachana. Yeh data ko secure karta hai aur sirf necessary functions ke through access ki permission deta hai.
+
+// class Car {
+//   constructor(brand, model) {
+//     this._brand = brand;
+//     this._model = model;
+//   }
+
+//   getBrand() {
+//     return this._brand;
+//   }
+
+//   setBrand(brand) {
+//     this._brand = brand;
+//   }
+
+//   getModel() {
+//     return this._model;
+//   }
+
+//   setModel(model) {
+//     this._model = model;
+//   }
+
+//   start() {
+//     console.log(`${this._brand} ${this._model} is starting.`);
+//   }
+// }
+
+// const myCar = new Car("Toyota", "Corolla");
+// console.log(myCar.getBrand()); // Toyota
+// myCar.setBrand("Honda");
+// console.log(myCar.getBrand()); // Honda
+
+//Yahaan pe Car class ke properties _brand aur _model ko humne private banaya aur unko get/set methods ke through access kiya.
+
+//================================================================
+// Inheritance: Inheritance ka matlab hota hai ek class ko doosri class se extend karna taaki hum reuse kar sakein common properties aur methods ko.
+
+// class Vehicle {
+//   constructor(brand) {
+//     this.brand = brand;
+//   }
+
+//   start() {
+//     console.log(`${this.brand} is starting.`);
+//   }
+// }
+
+// class Car extends Vehicle {
+//   constructor(brand, model) {
+//     super(brand);
+//     this.model = model;
+//   }
+
+//   drive() {
+//     console.log(`${this.brand} ${this.model} is driving.`);
+//   }
+// }
+
+// const myCar = new Car("Toyota", "Corolla");
+// myCar.start();
+// myCar.drive();
+
+// Yahaan pe `Car` class ne `Vehicle` class ko inherit kiya, jisse `Car` ko `start` method mil gaya.
+
+//================================================================
+// class Animal {
+//   speak() {
+//     console.log("The animal makes a sound.");
+//   }
+// }
+
+// class Dog extends Animal {
+//   speak() {
+//     console.log("The dog barks.");
+//   }
+// }
+
+// class Cat extends Animal {
+//   speak() {
+//     console.log("The cat meows.");
+//   }
+// }
+
+// const myDog = new Dog();
+// const myCat = new Cat();
+
+// myDog.speak(); // The dog barks.
+// myCat.speak(); // The cat meows.
+
+// Yahaan pe `speak` method ko `Dog` aur `Cat` classes ne alag-alag tareeke se implement kiya.
+
+// To summarize:
+
+// Abstraction: Sirf important details ko show karna.
+// Encapsulation: Data ko hide karna aur methods ke through access dena.
+// Inheritance: Ek class ko doosri class se extend karna.
+// Polymorphism: Same method ko different classes mein different tareeke se implement karna.
