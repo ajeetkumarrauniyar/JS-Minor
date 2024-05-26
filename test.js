@@ -206,7 +206,7 @@ Functions & Methods
 // let calcSquare = (val) => {
 //   console.log(val * val);
 // };
-// arr.forEach(calcSquare); 
+// arr.forEach(calcSquare);
 
 // let evenArray = arr.filter((val) => {
 //   return val % 2 === 0;
@@ -279,6 +279,141 @@ Functions & Methods
 /*================================================================
 Events
 ================================================================*/
+// const func1 = () => {
+//   setTimeout(() => {
+//     console.log("First Called");
+//   }, 1000);
+// };
+
+// const func2 = () => {
+//   setTimeout(() => {
+//     console.log("Second Called");
+//   }, 2000);
+// };
+
+// const func3 = () => {
+//   setTimeout(() => {
+//     console.log("Third Called");
+//   }, 1000);
+// };
+
+// func1();
+// func2();
+// func3();
+
+/*================================================================
+Promises
+================================================================*/
+// Basic Syntax
+// const promiseOne = new Promise((resolve, reject) => {
+//   setTimeout(() => {
+//     console.log("Async task is complete");
+//     resolve();
+//   }, 1000);
+
+// });
+
+// promiseOne.then(() => {
+//   console.log("Promise consumed");
+// });
+
+//================================================================
+// Data consumption and passing the values to the then method
+
+// const promiseThree = new Promise((resolve, reject) => {
+//   setTimeout(() => {
+//     resolve({ username: "Ajeet", email: "ajeet@itmavericksolutions.in" });
+//   }, 1000);
+// });
+
+// promiseThree.then((user) => {
+//   console.log(user);
+// });
+
+//================================================================
+// promise chaining
+
+// const promiseFour = new Promise((resolve, reject) => {
+//   setTimeout(() => {
+//     let error = true;
+//     if (!error) {
+//       resolve({ username: "Ajeet", email: "ajeet@itmavsolutions.in" });
+//     } else {
+//       reject("ERROR: Something went wrong");
+//     }
+//   }, 1000);
+// });
+
+// promiseFour
+//   .then((user) => {
+//     console.log(user);
+//     console.log(user.username);
+//     return user.username;
+//   })
+//   .then((username) => {
+//     console.log(username);
+//   })
+//   .catch((error) => {
+//     console.log(error);
+//   })
+//   .finally(() => console.log("The Promise is either fulfilled or rejected")); // Default,  will always run either the promise is resolved or rejected
+
+//================================================================
+// Handling promise with async/await
+
+// const promiseFive = new Promise((resolve, reject) => {
+//   setTimeout(() => {
+//     let error = true;
+//     if (!error) {
+//       resolve({ name: "Ajeet", email: "test@example.com" });
+//     } else {
+//       reject("Error: Something went wrong in Promise Five");
+//     }
+//   }, 1000);
+// });
+
+// const consumedPromiseFive = async () => {
+//   try {
+//     const response = await promiseFive;
+//     console.log(response);
+//   } catch (error) {
+//     console.log(error);
+//   }
+// };
+
+// consumedPromiseFive();
+
+//================================================================
+//
+
+// const getAllUsers = async () => {
+//   try {
+//     const url = "https://jsonplaceholder.typicode.com/users";
+
+//     let response = await fetch(url);
+//     const data = await response.json();
+//     console.log(data);
+//   } catch (error) {
+//     console.log(error);
+//   }
+// };
+
+// getAllUsers();
+
+//2nd Method
+
+// const url = "https://jsonplaceholder.typicode.com/users";
+
+// fetch(url)
+//   .then((response) => {
+//     return response.json();
+//   })
+//   .then((data) => {
+//     console.log(data);
+//   })
+//   .catch((error) => {
+//     return console.log(error);
+//   });
 
 /*================================================================
 OOPs
