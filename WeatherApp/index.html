@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="row-primary">
+        <div class="mode">
+          <button id="mode-toggle">&#9680;</button>
+        </div>
+        <div class="search-bar">
+          <input type="text" placeholder="Search for a city" />
+          <button id="search-btn">&#128269;</button>
+        </div>
+        <div class="current-location">
+          <button id="location-btn">&#8982;</button>
+        </div>
+      </div>
+      <div class="row-secondary-card">
+        <div class="card-content">
+          <div class="location-time-card">
+            <div class="location">Athens</div>
+            <div class="time">09:30</div>
+            <div class="date">Thursday, 31 Aug</div>
+          </div>
+          <div class="weather-details">
+            <div class="main-details">
+              <p class="temperature">24&deg;C</p>
+              <p class="feels-like">Feels like: <span>22&deg;C</span></p>
+              <p class="sunrise">Sunrise: 06:15</p>
+              <p class="sunset">Sunset: 19:45</p>
+            </div>
+            <div class="icon-weather">
+              <img src="./images/clear.png" alt="Clear" />
+              <p class="type-of-weather">Sunny</p>
+            </div>
+            <div class="extra-details">
+              <p>Humidity: 45%</p>
+              <p>Wind: 5 km/h</p>
+              <p>Precipitation: 0%</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row-last">
+        <div class="forecast-container">
+          <div class="five-days-forecast">
+            <h3 class="forecast-title">5-Day Forecast</h3>
+            <div class="forecast-day">
+              <div class="day">Friday</div>
+              <img src="./images/mist.png" alt="Mist" />
+              <div class="temp">
+                <span class="high">28&deg;C</span>
+                <span class="low">18&deg;C</span>
+              </div>
+            </div>
+            <!-- Additional forecast days here -->
+          </div>
+          <div class="hourly-forecast">
+            <h3 class="forecast-title">Hourly Forecast</h3>
+            <div class="hourly-item">
+              <div class="hour">10:00</div>
+              <img src="./images/clear.png" alt="Sunny" />
+              <div class="temp">25&deg;C</div>
+            </div>
+            <!-- Additional hourly items here -->
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
