@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Guess The Number</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f0f0f0;
+        text-align: center;
+        padding: 20px;
+      }
+
+      .container {
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        max-width: 400px;
+        margin: 20px auto;
+      }
+
+      h1 {
+        color: #333;
+        margin-top: 0;
+      }
+
+      input[type="number"] {
+        padding: 10px;
+        font-size: 16px;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+        margin-bottom: 10px;
+      }
+
+      button {
+        background-color: #4caf50;
+        color: #fff;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 16px;
+        margin-bottom: 10px;
+      }
+
+      button:hover {
+        background-color: #3e8e41;
+      }
+
+      p {
+        margin: 5px 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Number Guessing Game</h1>
+      <p>Try and guess the number between <span>1 - 100</span></p>
+      <p>You have <span>10</span> attempts to guess the number</p>
+      <form>
+        <input
+          type="number"
+          name="number"
+          id="number"
+          placeholder="Enter your guess"
+          required
+        />
+        <button type="submit" id="submit">Submit Guess</button>
+      </form>
+      <p>Previous Guess: <span id="prevGuess"></span></p>
+      <p>
+        Guesses Remaining:<span id="guessRemaining">10</span>
+      </p>
+      <p id="lowOrHi"></p>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>

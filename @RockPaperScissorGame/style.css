@@ -1,0 +1,63 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f0f0f0;
+}
+
+.container {
+  text-align: center;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.icon {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.icon div {
+  margin: 0 10px;
+  cursor: pointer;
+}
+
+.icon img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+  transition: transform 0.2s;
+}
+
+.icon img:hover {
+  transform: scale(1.1);
+  border-radius: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.score {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.players {
+  text-align: center;
+}
+
+.players div {
+  font-size: 2em;
+  margin-bottom: 5px;
+}
+
+#won-msg {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #333;
+}

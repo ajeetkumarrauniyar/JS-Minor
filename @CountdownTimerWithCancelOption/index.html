@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Countdown Timer with Cancel</title>
+  </head>
+  <body>
+    <div class="timer-container">
+      <div class="timer">
+        <div class="time" id="days">00</div>
+        <div class="label">Days</div>
+      </div>
+      <div class="timer">
+        <div class="time" id="hours">00</div>
+        <div class="label">Hours</div>
+      </div>
+      <div class="timer">
+        <div class="time" id="minutes">00</div>
+        <div class="label">Minutes</div>
+      </div>
+      <div class="timer">
+        <div class="time" id="seconds">00</div>
+        <div class="label">Seconds</div>
+      </div>
+    </div>
+    <div class="controls">
+      <button id="startButton">Start</button>
+      <button id="cancelButton">Cancel</button>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
+<!-- Use setTimeout() to count down from the specified number of seconds and display the remaining time each second.
+
+If the "Cancel Timer" button is clicked, use clearTimeout() to stop the countdown. -->
+<!-- 1. Grab the time in seconds from the input field 
+     2. Current time -->
