@@ -1,6 +1,7 @@
 const api_key = "64c12e0b67ad52964dc726990895eb00";
 let city = document.querySelector(".search-bar input");
 let searchBtn = document.querySelector(".search-bar button");
+let currentLocationBtn = document.querySelector("#location-btn");
 
 let locationName = document.querySelector(".location");
 let currentTime = document.querySelector(".time");
@@ -15,9 +16,12 @@ let sunSet = document.querySelector(".sunset");
 let iconWeather = document.querySelector("#weather-icon");
 let weatherType = document.querySelector(".type-of-weather");
 
+let highTemp = document.querySelector(".high");
+let lowTemp = document.querySelector(".low");
+
 const now = new Date();
 
-function getCurrentTimeIn12HourFormat() {
+const getCurrentTimeIn12HourFormat = () => {
   let hours = now.getHours();
   const minutes = now.getMinutes();
 
@@ -29,10 +33,10 @@ function getCurrentTimeIn12HourFormat() {
 
   const strTime = hours + ":" + minutesStr + " " + ampm;
   return strTime;
-}
+};
 currentTime.innerHTML = getCurrentTimeIn12HourFormat();
 
-function getTodayDayAndDate() {
+const getTodayDayAndDate = () => {
   const weekday = [
     "Sunday",
     "Monday",
@@ -65,7 +69,7 @@ function getTodayDayAndDate() {
 
   const dayAndDate = `${day}, ${date}, ${month}`;
   return dayAndDate;
-}
+};
 
 currentDay.innerHTML = getTodayDayAndDate();
 
@@ -109,9 +113,16 @@ const setWeatherIcon = (weatherMain) => {
       break;
   }
 };
+
+const extractNameInParentheses = (cityName) => {
+  const matches = cityName.match(/\(([^)]+)\)/);
+  return matches ? matches[1] : cityName;
+};
+
 const checkWeather = async () => {
   const cityName = city.value;
-  const url = `https://api.openweathermap.org/data/2.5/weather?&q=${cityName}&appid=${api_key}&units=metric`;
+  const extractedCityName = extractNameInParentheses(cityName);
+  const url = `https://api.openweathermap.org/data/2.5/weather?&q=${extractedCityName}&appid=${api_key}&units=metric`;
 
   try {
     const response = await fetch(url);
@@ -124,15 +135,17 @@ const checkWeather = async () => {
       feelsLike.innerHTML = `${Math.round(data.main.feels_like)}&deg;C`;
 
       humidityPercent.innerHTML = `Humidity: ${data.main.humidity}%`;
-      windSpeed.innerHTML = `Wind: ${parseInt(data.wind.speed)} km/h`;
+      windSpeed.innerHTML = `Wind: ${Math.round(data.wind.speed)} km/h`;
 
-      const options = { hour: '2-digit', minute: '2-digit', hour12: true };
-      sunRise.innerHTML = `Sunrise: ${new Date(data.sys.sunrise * 1000).toLocaleTimeString([], options)}`;
-      sunSet.innerHTML = `Sunset: ${new Date(data.sys.sunset * 1000).toLocaleTimeString([], options)}`;
+      const options = { hour: "2-digit", minute: "2-digit", hour12: true };
+      sunRise.innerHTML = `Sunrise: ${new Date(
+        data.sys.sunrise * 1000
+      ).toLocaleTimeString([], options)}`;
+      sunSet.innerHTML = `Sunset: ${new Date(
+        data.sys.sunset * 1000
+      ).toLocaleTimeString([], options)}`;
 
       setWeatherIcon(data.weather[0].main);
-
-      console.log(data);
     } else {
       alert(`City not found: ${cityName}`);
     }
@@ -144,6 +157,81 @@ const checkWeather = async () => {
   }
 };
 
+const dailyForecast = async () => {
+  const cityName = city.value;
+  const extractedCityName = extractNameInParentheses(cityName);
+  const forecastUrl = `https://api.openweathermap.org/data/2.5/forecast?q=${extractedCityName}&appid=${api_key}&units=metric`;
+
+  try {
+    const response = await fetch(forecastUrl);
+    const data = await response.json();
+
+    highTemp.innerHTML = `${Math.round(data.list[0].main.temp_max)}&deg;C`;
+    lowTemp.innerHTML = `${Math.round(data.list[0].main.temp_min)}&deg;C`;
+  } catch (error) {
+    console.log(error);
+  }
+};
+
+//TODO:
+const hourlyForecast = () => {};
+
 searchBtn.addEventListener("click", () => {
   checkWeather();
+  dailyForecast();
 });
+
+const locationFound = (position) => {
+  const coords = `lat=${position.coords.latitude}&lon=${position.coords.longitude}`;
+  geolocation(coords);
+};
+
+const locationNotFound = (error) => {
+  console.log(error);
+};
+
+const options = {
+  enableHighAccuracy: true,
+  timeout: 10000,
+};
+
+// Get the current position once
+navigator.geolocation.getCurrentPosition(
+  locationFound,
+  locationNotFound,
+  options
+);
+
+const locationId = navigator.geolocation.watchPosition(
+  locationFound,
+  locationNotFound
+);
+
+const geolocation = async (coords) => {
+  try {
+    const locationUrl = `http://api.openweathermap.org/geo/1.0/reverse?${coords}&appid=${api_key}`;
+    console.log(locationUrl);
+    const response = await fetch(locationUrl);
+    const data = await response.json();
+    const geolocationName = data[0].name;
+    city.value = geolocationName;
+    checkWeather(geolocationName);
+    dailyForecast(geolocationName);
+  } catch (error) {
+    console.log(error);
+  }
+};
+
+// Get the current position once
+currentLocationBtn.addEventListener("click", () => {
+  navigator.geolocation.getCurrentPosition(
+    locationFound,
+    locationNotFound,
+    options
+  );
+});
+
+setTimeout(() => {
+  navigator.geolocation.clearWatch(locationId);
+  console.log("Stopped watching position.");
+}, 60000);
