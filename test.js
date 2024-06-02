@@ -421,7 +421,7 @@ The 4 Pillars of Object Oriented Programming
 1. Abstraction
 2. Encapsulation
 3. Inheritance
-4. Polymorphism
+4. Inheritance
 ================================================================*/
 // Abstraction : Abstraction ka matlab hota hai ki hum sirf important details ko highlight karte hain aur baaki ki unnecessary details ko hide kar dete hain. This helps in reducing complexity.
 
