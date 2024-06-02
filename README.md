@@ -54,7 +54,7 @@
 | -------------- | --------------------------------------------------------------- | ------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------ |
 | 19             | [Random Cat Facts](#random-cat-facts)                           | [Source Code](https://github.com/ajeetkumarrauniyar/JS-Minor/blob/main/RandomCatFacts/index.html) | [Live Demo](https://ajeetkumarrauniyar.github.io/JS-Minor/RandomCatFacts/index.html) |
 | 20             | [Rate mate : Currency Converter](#rate-mate-currency-converter) | [Source Code](https://github.com/ajeetkumarrauniyar/JS-Minor/blob/main/RateMate/index.html)       | [Live Demo](https://ajeetkumarrauniyar.github.io/JS-Minor/RateMate/index.html)       |
-| 21             | [WeatherWise : Weather App](#weather-wise)                      | [Source Code](https://github.com/ajeetkumarrauniyar/JS-Minor/blob/main/WeatherApp/index.html)     | [Live Demo](https://ajeetkumarrauniyar.github.io/JS-Minor/WeatherApp/index.html)     |
+| 21             | [WeatherWise : Weather App](#weather-wise-weather-app)                      | [Source Code](https://github.com/ajeetkumarrauniyar/JS-Minor/blob/main/WeatherApp/index.html)     | [Live Demo](https://ajeetkumarrauniyar.github.io/JS-Minor/WeatherApp/index.html)     |
 
 [Jump to Top](#top)
 
