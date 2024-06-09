@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todo List</title>
+    <style>
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f4;
+      }
+
+      .container {
+        max-width: 500px;
+        margin: 50px auto;
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 5px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      }
+
+      h1 {
+        text-align: center;
+        margin-bottom: 20px;
+      }
+
+      .input-container {
+        display: flex;
+        margin-bottom: 20px;
+      }
+
+      #inputTask {
+        flex-grow: 1;
+        padding: 10px;
+        border: 1px solid #ddd;
+        border-radius: 3px;
+        font-size: 16px;
+      }
+
+      #addTask {
+        background-color: #4caf50;
+        color: #fff;
+        border: none;
+        border-radius: 3px;
+        padding: 10px 20px;
+        font-size: 16px;
+        cursor: pointer;
+        margin-left: 10px;
+      }
+
+      #taskList {
+        list-style-type: none;
+      }
+
+      #taskList li {
+        background-color: #f9f9f9;
+        padding: 10px;
+        margin-bottom: 10px;
+        border-radius: 3px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: relative;
+      }
+
+      #taskList li span {
+        flex-grow: 1;
+        position: absolute;
+        right: 0;
+        top: 5px;
+        height: 40px;
+        width: 40px;
+        font-size: 22px;
+        color: red;
+        text-align: center;
+      }
+      #taskList li button {
+        background-color: #f44336;
+        color: #fff;
+        border: none;
+        border-radius: 3px;
+        padding: 5px 10px;
+        cursor: pointer;
+        margin-left: 10px;
+      }
+      #taskList li.checked {
+        text-decoration: line-through;
+        color: #888;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="input-container">
+        <input type="text" id="inputTask" placeholder="Enter a task..." />
+        <button id="addTask" onclick="addTask()">Add</button>
+      </div>
+      <ul id="taskList" aria-live="polite">
+        <!-- Tasks will be added here dynamically using JavaScript -->
+      </ul>
+    </div>
+
+    <script>
+      const inputBox = document.getElementById("inputTask");
+      const taskList = document.getElementById("taskList");
+      const addButton = document.getElementById("addTask");
+
+      // Add task with Enter key
+      inputBox.addEventListener("keypress", function (e) {
+        if (e.key === "Enter") {
+          addTask();
+        }
+      });
+
+      const addTask = () => {
+        if (inputBox.value === "") {
+          alert("Please enter a task");
+        } else {
+          let li = document.createElement("li");
+          li.innerHTML = inputBox.value;
+          taskList.appendChild(li);
+          
+          let span = document.createElement("span");
+          span.innerHTML = "\u00d7";
+          li.appendChild(span);
+        }
+        inputBox.value = ""; // reset input
+        saveData(); // save data to local storage
+      };
+
+      // Checked and remove task
+      taskList.addEventListener(
+        "click",
+        function (e) {
+          if (e.target.tagName == "LI") {
+            e.target.classList.toggle("checked");
+            saveData();
+          } else if (e.target.tagName == "SPAN") {
+            e.target.parentElement.remove();
+            saveData();
+          }
+        },
+        false
+      );
+
+      const saveData = () => {
+        localStorage.setItem("saveData", taskList.innerHTML);
+      };
+
+      const getTask = () => {
+        taskList.innerHTML = localStorage.getItem("saveData");
+      };
+      getTask();
+    </script>
+  </body>
+</html>
