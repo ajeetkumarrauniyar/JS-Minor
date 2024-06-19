@@ -4,24 +4,25 @@
 
 ## Events
 
-| Project Number | Project Title                                           | Source Code                                                                                                | Live Demo Link                                                                      |
-| -------------- | ------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------- |
-| 01             | [Mouse Tracking](#mouse-tracking)                       | [Source Code](https://github.com/ajeetkumarrauniyar/JS-Minor/blob/main/MouseTracking/index.html)           | [Live Demo](https://ajeetkumarrauniyar.github.io/JS-Minor/MouseTracking/index.html) |
-| 02             | [Form Validation](#form-validation)                     | [Source Code](https://github.com/ajeetkumarrauniyar/JS-Minor/blob/main/FormValidation/index.html)          | [Live Demo](#)                                                                      |
-| 03             | [Event Delegation](#event-delegation)                   | [Source Code](https://github.com/ajeetkumarrauniyar/JS-Minor/blob/main/EventDelegation/index.html)         | [Live Demo](#)                                                                      |
-| 04             | [Interactive Image Gallery](#interactive-image-gallery) | [Source Code](https://github.com/ajeetkumarrauniyar/JS-Minor/blob/main/InteractiveImageGallery/index.html) | [Live Demo](#)                                                                      |
-| 05             | [Image Slider](#image-slider)                           | [Source Code](https://github.com/ajeetkumarrauniyar/JS-Minor/blob/main/ImageSlider/index.html)             | [Live Demo](#)                                                                      |
-| 06             | [Custom Tooltips](#custom-tooltips)                     | [Source Code](https://github.com/ajeetkumarrauniyar/JS-Minor/blob/main/CustomTooltips/index.html)          | [Live Demo](#)                                                                      |
-| 07             | [Drag and Drop Game](#drag-and-drop-game)               | [Source Code](https://github.com/ajeetkumarrauniyar/JS-Minor/blob/main/DragAndDropGame/index.html)         | [Live Demo](#)                                                                      |
-| 08             | [Drag and Drop Interface](#drag-and-drop-interface)     | [Source Code](https://github.com/ajeetkumarrauniyar/JS-Minor/blob/main/DragAndDropInterface/index.html)    | [Live Demo](#)                                                                      |
-| 09             | [Infinite Scroll](#infinite-scroll)                     | [Source Code](https://github.com/ajeetkumarrauniyar/JS-Minor/blob/main/InfiniteScroll/index.html)          | [Live Demo](#)                                                                      |
-| 19             | [Keyboard Check](#keyboard-check)                       | [Source Code](https://github.com/ajeetkumarrauniyar/JS-Minor/blob/main/KeyboardCheck/index.html)           | [Live Demo](https://ajeetkumarrauniyar.github.io/JS-Minor/KeyboardCheck/index.html) |
+| Project Number | Project Title                                           | Source Code                                                                                                | Live Demo Link                                                                              |
+| -------------- | ------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------- |
+| 01             | [Mouse Tracking](#mouse-tracking)                       | [Source Code](https://github.com/ajeetkumarrauniyar/JS-Minor/blob/main/MouseTracking/index.html)           | [Live Demo](https://ajeetkumarrauniyar.github.io/JS-Minor/MouseTracking/index.html)         |
+| 02             | [Form Validation](#form-validation)                     | [Source Code](https://github.com/ajeetkumarrauniyar/JS-Minor/blob/main/FormValidation/index.html)          | [Live Demo](#)                                                                              |
+| 03             | [Event Delegation](#event-delegation)                   | [Source Code](https://github.com/ajeetkumarrauniyar/JS-Minor/blob/main/EventDelegation/index.html)         | [Live Demo](#)                                                                              |
+| 04             | [Interactive Image Gallery](#interactive-image-gallery) | [Source Code](https://github.com/ajeetkumarrauniyar/JS-Minor/blob/main/InteractiveImageGallery/index.html) | [Live Demo](#)                                                                              |
+| 05             | [Image Slider](#image-slider)                           | [Source Code](https://github.com/ajeetkumarrauniyar/JS-Minor/blob/main/ImageSlider/index.html)             | [Live Demo](#)                                                                              |
+| 06             | [Custom Tooltips](#custom-tooltips)                     | [Source Code](https://github.com/ajeetkumarrauniyar/JS-Minor/blob/main/CustomTooltips/index.html)          | [Live Demo](#)                                                                              |
+| 07             | [Drag and Drop Game](#drag-and-drop-game)               | [Source Code](https://github.com/ajeetkumarrauniyar/JS-Minor/blob/main/DragAndDropGame/index.html)         | [Live Demo](#)                                                                              |
+| 08             | [Drag and Drop Interface](#drag-and-drop-interface)     | [Source Code](https://github.com/ajeetkumarrauniyar/JS-Minor/blob/main/DragAndDropInterface/index.html)    | [Live Demo](#)                                                                              |
+| 09             | [Infinite Scroll](#infinite-scroll)                     | [Source Code](https://github.com/ajeetkumarrauniyar/JS-Minor/blob/main/InfiniteScroll/index.html)          | [Live Demo](#)                                                                              |
+| 10             | [Keyboard Check](#keyboard-check)                       | [Source Code](https://github.com/ajeetkumarrauniyar/JS-Minor/blob/main/KeyboardCheck/index.html)           | [Live Demo](https://ajeetkumarrauniyar.github.io/JS-Minor/KeyboardCheck/index.html)         |
+| 11             | [Todo List](#todo-list)                                 | [Source Code](https://github.com/ajeetkumarrauniyar/JS-Minor/blob/main/TaskMaster_JavaScript/index.html)   | [Live Demo](https://ajeetkumarrauniyar.github.io/JS-Minor/TaskMaster_JavaScript/index.html) |
 
 ## Date & Time
 
 | Project Number | Project Title           | Source Code                                                                                     | Live Demo Link                                                                     |
 | -------------- | ----------------------- | ----------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------- |
-| 10             | [PixelTime](#pixeltime) | [Source Code](https://github.com/ajeetkumarrauniyar/JS-Minor/blob/main/DigitalClock/index.html) | [Live Demo](https://ajeetkumarrauniyar.github.io/JS-Minor/DigitalClock/index.html) |
+| 12             | [PixelTime](#pixeltime) | [Source Code](https://github.com/ajeetkumarrauniyar/JS-Minor/blob/main/DigitalClock/index.html) | [Live Demo](https://ajeetkumarrauniyar.github.io/JS-Minor/DigitalClock/index.html) |
 
 [Jump to Top](#top)
 
@@ -29,7 +30,7 @@
 
 | Project Number | Project Title             | Source Code                                                                                      | Live Demo Link                                                                      |
 | -------------- | ------------------------- | ------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------- |
-| 11             | [BMI Master](#bmi-master) | [Source Code](https://github.com/ajeetkumarrauniyar/JS-Minor/blob/main/BMICalculator/index.html) | [Live Demo](https://ajeetkumarrauniyar.github.io/JS-Minor/BMICalculator/index.html) |
+| 13             | [BMI Master](#bmi-master) | [Source Code](https://github.com/ajeetkumarrauniyar/JS-Minor/blob/main/BMICalculator/index.html) | [Live Demo](https://ajeetkumarrauniyar.github.io/JS-Minor/BMICalculator/index.html) |
 
 [Jump to Top](#top)
 
@@ -37,10 +38,10 @@
 
 | Project Number | Project Title                                                         | Source Code                                                                                                       | Live Demo Link                                                                       |
 | -------------- | --------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------ |
-| 12             | [Simple Delayed Message](#simple-delayed-message)                     | [Source Code](https://github.com/ajeetkumarrauniyar/JS-Minor/blob/main/DelayedMessage/index.html)                 | [Live Demo](https://ajeetkumarrauniyar.github.io/JS-Minor/DelayedMessage/index.html) |
-| 13             | [CountdownTimerWithCancelOption](#countdown-timer-with-cancel-option) | [Source Code](https://github.com/ajeetkumarrauniyar/JS-Minor/blob/main/CountdownTimerWithCancelOption/index.html) | [Live Demo](#)                                                                       |
-| 14             | [Popup Reminder](#popup-reminder)                                     | [Source Code](#)                                                                                                  | [Live Demo](#)                                                                       |
-| 15             | [Unlimited Color Changer](#unlimited-color-changer)               | [Source Code](https://github.com/ajeetkumarrauniyar/JS-Minor/blob/main/ColorChanger/index.html)                 | [Live Demo](https://ajeetkumarrauniyar.github.io/JS-Minor/ColorChanger/index.html) |
+| 14             | [Simple Delayed Message](#simple-delayed-message)                     | [Source Code](https://github.com/ajeetkumarrauniyar/JS-Minor/blob/main/DelayedMessage/index.html)                 | [Live Demo](https://ajeetkumarrauniyar.github.io/JS-Minor/DelayedMessage/index.html) |
+| 15             | [CountdownTimerWithCancelOption](#countdown-timer-with-cancel-option) | [Source Code](https://github.com/ajeetkumarrauniyar/JS-Minor/blob/main/CountdownTimerWithCancelOption/index.html) | [Live Demo](#)                                                                       |
+| 16             | [Popup Reminder](#popup-reminder)                                     | [Source Code](#)                                                                                                  | [Live Demo](#)                                                                       |
+| 17             | [Unlimited Color Changer](#unlimited-color-changer)                   | [Source Code](https://github.com/ajeetkumarrauniyar/JS-Minor/blob/main/ColorChanger/index.html)                   | [Live Demo](https://ajeetkumarrauniyar.github.io/JS-Minor/ColorChanger/index.html)   |
 
 [Jump to Top](#top)
 
@@ -48,7 +49,7 @@
 
 | Project Number | Project Title                 | Source Code                                                                                    | Live Demo Link                                                                    |
 | -------------- | ----------------------------- | ---------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------- |
-| 17             | [Profile Card](#profile-card) | [Source Code](https://github.com/ajeetkumarrauniyar/JS-Minor/blob/main/ProfileCard/index.html) | [Live Demo](https://ajeetkumarrauniyar.github.io/JS-Minor/ProfileCard/index.html) |
+| 18             | [Profile Card](#profile-card) | [Source Code](https://github.com/ajeetkumarrauniyar/JS-Minor/blob/main/ProfileCard/index.html) | [Live Demo](https://ajeetkumarrauniyar.github.io/JS-Minor/ProfileCard/index.html) |
 
 ## Fetch API
 
@@ -129,6 +130,13 @@
 - **Description**: Implement an infinite scroll feature on a website, where new content is loaded dynamically as the user scrolls down the page, utilizing the `scroll` event.
 - **Events covered**: `scroll`, `resize`
 - **Use case**: Infinite scroll is commonly used on social media feeds, news websites, and e-commerce platforms to enhance the user experience by loading content seamlessly without page refreshes.
+  [Jump to Top](#top)
+
+### Todo List
+
+- **Description**: Create a web page for managing a todo list. Users can add tasks, mark them as completed, and remove tasks. The tasks are saved in the browser's local storage to persist data between sessions. This project uses event listeners for task interactions and local storage for data persistence.
+- **Topics covered**: `click`, `keypress`, `localStorage`, `getItem`, `setItem`, `DOM manipulation`
+- **Use case**: Todo lists are widely used for task management, planning, and organization. This project demonstrates fundamental web development skills and practical use of local storage.
   [Jump to Top](#top)
 
 ### PixelTime
