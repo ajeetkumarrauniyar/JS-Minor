@@ -64,7 +64,7 @@ const updateExchangeRate = async () => {
 
   let finalAmount = rate * inputAmtValue;
 
-  exchangeRateMsg.innerText = `1 ${currency.toUpperCase()} = ${finalAmount.toFixed(
+  exchangeRateMsg.innerText = `${inputAmtValue} ${currency.toUpperCase()} = ${finalAmount.toFixed(
     2
   )} ${currency2.toUpperCase()}`; // 1 USD = 84 INR
 };
