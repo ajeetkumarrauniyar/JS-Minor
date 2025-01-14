@@ -1,5 +1,10 @@
 <a name="top"></a>
 
+
+# Questions
+
+- For practice questions related to JavaScript, please refer to the [JavaScript Practice Questions](JS-MINOR/PracticeQuestions/JavaScript/README.md) file. This file contains various exercises categorized by topics, including basics, operators, loops, functions, arrays, objects, and more.
+
 # Project Title
 
 ## Events
