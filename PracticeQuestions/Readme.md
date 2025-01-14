@@ -6,10 +6,10 @@ This repository contains a collection of programming practice questions and note
 
 - **JavaScript/**: Contains JavaScript practice questions categorized by topics.
   - **Basics/**: Basic programming concepts and exercises. (e.g., Variables and Constants, Datatypes, Type coercion and conversion)
-    - [variables_and_constants.js](JS-MINOR/PracticeQuestions/JavaScript/Basics/variables_and_constants.js)
-    - [datatypes.js](JS-MINOR/PracticeQuestions/JavaScript/Basics/datatypes.js)
-    - [type_coercion_and_conversion.js](JS-MINOR/PracticeQuestions/JavaScript/Basics/type_coercion_and_conversion.js)
-    - [grading_system.js](JS-MINOR/PracticeQuestions/JavaScript/Basics/grading_system.js)
+    - [variables_and_constants.js](https://github.com/ajeetkumarrauniyar/JS-Minor/blob/main/PracticeQuestions/JavaScript/Basics/variables_and_constants.js)
+    - [datatypes.js](https://github.com/ajeetkumarrauniyar/JS-Minor/blob/main/PracticeQuestions/JavaScript/Basics/datatypes.js)
+    - [type_coercion_and_conversion.js](https://github.com/ajeetkumarrauniyar/JS-Minor/blob/main/PracticeQuestions/JavaScript/Basics/type_coercion_and_conversion.js)
+    - [grading_system.js](https://github.com/ajeetkumarrauniyar/JS-Minor/blob/main/PracticeQuestions/JavaScript/Basics/grading_system.js)
   - **Operators\_&_Control_Structures/**: Exercises related to Conditional statements. (e.g., if-else, switch, comparison operators)
     - [multiple_of_5.js](JS-MINOR/PracticeQuestions/JavaScript/Operators_&_Control_Structures/multiple_of_5.js)
     - [conditional_statements.js](JS-MINOR/PracticeQuestions/JavaScript/Operators_&_Control_Structures/conditional_statements.js)
