@@ -3,7 +3,7 @@
 
 # Questions
 
-- For practice questions related to JavaScript, please refer to the [JavaScript Practice Questions](PracticeQuestions/README.md) file. This file contains various exercises categorized by topics, including basics, operators, loops, functions, arrays, objects, and more.
+- For practice questions related to JavaScript, please refer to the [JavaScript Practice Questions](https://github.com/ajeetkumarrauniyar/JS-Minor/blob/main/PracticeQuestions/README.md) file. This file contains various exercises categorized by topics, including basics, operators, loops, functions, arrays, objects, and more.
 
 # Project Title
 
