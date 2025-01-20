@@ -28,6 +28,7 @@
 | Project Number | Project Title           | Source Code                                                                                     | Live Demo Link                                                                     |
 | -------------- | ----------------------- | ----------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------- |
 | 12             | [PixelTime](#pixeltime) | [Source Code](https://github.com/ajeetkumarrauniyar/JS-Minor/blob/main/DigitalClock/index.html) | [Live Demo](https://ajeetkumarrauniyar.github.io/JS-Minor/DigitalClock/index.html) |
+| 13             | [How Old Am I](#howoldami) | [Source Code](https://github.com/ajeetkumarrauniyar/JS-Minor/blob/main/AgeCalculator/index.html) | [Live Demo](https://ajeetkumarrauniyar.github.io/JS-Minor/AgeCalculator/index.html) |
 
 [Jump to Top](#top)
 
@@ -150,6 +151,13 @@
 - **Topics covered**: Date object, setInterval function, DOM manipulation
 - **Use case**: PixelTime can be used on websites or applications where displaying real-time information is necessary, such as dashboards, admin panels, or personal websites.
   [Jump to Top](#top)
+
+### How Old Am I?
+- **Description**: HowOldAmI is a age calculator that calculates your current age from your date of birth. It provides a simple yet effective way to know old are you.
+- **Topics covered**: Date object, function, conditional-statements, DOM manipulation
+- **Use case**: Determine age for healthcare, forms, websites, and applications.
+  [Jump to Top](#top)
+
 
 ### BMI Master
 
